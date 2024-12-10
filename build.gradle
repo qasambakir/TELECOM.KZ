@@ -1,0 +1,58 @@
+plugins {
+    id 'java-library'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+def allureVersion = "2.21.0"
+def selenideVersion = "7.4.3"
+
+allure {
+    adapter {
+        aspectjVersion.set("1.9.21")
+    }
+    report {
+        version.set(allureVersion)
+    }
+    adapter {
+        aspectjWeaver.set(true)
+        frameworks {
+            junit5 {
+                adapterVersion.set(allureVersion)
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation(
+            'com.codeborne:selenide:7.4.3',
+            "io.qameta.allure:allure-selenide:2.21.0",
+            "org.junit.jupiter:junit-jupiter:5.10.0",
+            'org.slf4j:slf4j-simple:2.0.7',
+
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+
+    tasks.withType(Test) {
+        useJUnitPlatform()
+        systemProperties(System.getProperties())
+
+    }
+}
+
+task  telecom_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("TELECOM")
+    }
+}
