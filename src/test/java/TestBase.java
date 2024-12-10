@@ -13,12 +13,12 @@ public class TestBase {
 
         @BeforeAll
         static void setup() {
-            Configuration.baseUrl = "https://telecom.kz/";
+            Configuration.baseUrl = "https://telecom.kz/ru";
             Configuration.pageLoadStrategy = "eager";
             Configuration.timeout = 10000;
             Configuration.remote = "https://" + System.getProperty("REMOTE_LOGIN") + "@" + System.getProperty("REMOTE_URL");
             Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-            Configuration.browser = System.getProperty("browser", "chrome");
+            Configuration.browser = System.getProperty("browser","chrome");
             Configuration.browserVersion = System.getProperty("browserVersion", "126.0");
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -37,8 +37,6 @@ public class TestBase {
             Attach.screenshotAs("Last screenshot");
             Attach.addVideo();
             Selenide.closeWebDriver();
-            Attach.pageSource();
-            Attach.browserConsoleLogs();
         }
 
 }

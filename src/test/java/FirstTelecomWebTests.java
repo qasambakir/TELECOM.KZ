@@ -1,8 +1,11 @@
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -16,7 +19,7 @@ public class FirstTelecomWebTests extends TestBase {
     @Test
     void GetInformationBoostInternetSpeedTest() {
         step("Open main page", () -> {
-            open("https://telecom.kz/ru/");
+            open("/");
             $("header").should(appear);
             executeJavaScript("let footer = document.querySelector('footer'); " +
                     "if (footer) footer.remove();");
@@ -37,7 +40,7 @@ public class FirstTelecomWebTests extends TestBase {
     @Test
     void GetInformationActivateServicesTest() {
         step("Open main page", () -> {
-            open("https://telecom.kz/ru/");
+            open("/");
             $("header").should(appear);
             executeJavaScript("let footer = document.querySelector('footer'); " +
                     "if (footer) footer.remove();");
