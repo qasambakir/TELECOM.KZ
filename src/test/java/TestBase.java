@@ -16,7 +16,7 @@ public class TestBase {
             Configuration.baseUrl = "https://telecom.kz/ru";
             Configuration.pageLoadStrategy = "eager";
             Configuration.timeout = 10000;
-            Configuration.remote = "https://" + System.getProperty("REMOTE_LOGIN") + "@" + System.getProperty("REMOTE_URL");
+            Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
             Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
             Configuration.browser = System.getProperty("browser","chrome");
             Configuration.browserVersion = System.getProperty("browserVersion", "126.0");
