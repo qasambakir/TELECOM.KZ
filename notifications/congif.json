@@ -1,0 +1,16 @@
+{
+  "base": {
+    "logo": "",
+    "project":"${JOB_NAME}",
+    "environment": "TELECOM",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7823674386:AAFjqv6UCFLBgoSScIjWBpVW60D--rfjWUw",
+    "chat": "-1002388440283",
+    "replyTo": ""
+  }
+}
