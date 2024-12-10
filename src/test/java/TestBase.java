@@ -13,7 +13,7 @@ public class TestBase {
 
         @BeforeAll
         static void setup() {
-            Configuration.baseUrl = "https://telecom.kz/ru/";
+            Configuration.baseUrl = "https://telecom.kz/";
             Configuration.pageLoadStrategy = "eager";
             Configuration.timeout = 10000;
             Configuration.remote = "https://" + System.getProperty("REMOTE_LOGIN") + "@" + System.getProperty("REMOTE_URL");
