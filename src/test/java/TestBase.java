@@ -15,8 +15,8 @@ public class TestBase {
         static void setup() {
             Configuration.baseUrl = "https://telecom.kz/ru/";
             Configuration.pageLoadStrategy = "eager";
-            Configuration.timeout = 10000; // Таймаут в миллисекундах (10 секунд)
-            Configuration.remote = null; //"https://" + System.getProperty("REMOTE_LOGIN") + "@" + System.getProperty("REMOTE_URL");
+            Configuration.timeout = 10000;
+            Configuration.remote = "https://" + System.getProperty("REMOTE_LOGIN") + "@" + System.getProperty("REMOTE_URL");
             Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
             Configuration.browser = System.getProperty("browser", "chrome");
             Configuration.browserVersion = System.getProperty("browserVersion", "126.0");
@@ -34,8 +34,11 @@ public class TestBase {
 
         @AfterEach
         void afterEach() {
+            Attach.screenshotAs("Last screenshot");
             Attach.addVideo();
             Selenide.closeWebDriver();
+            Attach.pageSource();
+            Attach.browserConsoleLogs();
         }
 
 }
