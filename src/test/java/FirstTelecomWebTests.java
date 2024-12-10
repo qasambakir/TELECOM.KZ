@@ -16,7 +16,7 @@ public class FirstTelecomWebTests extends TestBase {
     @Test
     void GetInformationBoostInternetSpeedTest() {
         step("Open main page", () -> {
-            open("/");
+            open("https://telecom.kz/ru/");
             $("header").should(appear);
             executeJavaScript("let footer = document.querySelector('footer'); " +
                     "if (footer) footer.remove();");
@@ -37,7 +37,7 @@ public class FirstTelecomWebTests extends TestBase {
     @Test
     void GetInformationActivateServicesTest() {
         step("Open main page", () -> {
-            open("/");
+            open("https://telecom.kz/ru/");
             $("header").should(appear);
             executeJavaScript("let footer = document.querySelector('footer'); " +
                     "if (footer) footer.remove();");
