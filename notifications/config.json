@@ -3,9 +3,9 @@
     "logo": "",
     "project":"${JOB_NAME}",
     "environment": "TELECOM",
-    "reportLink": "${BUILD_URL}",
+    "reportLink": "https://jenkins.autotests.cloud/job/First_project_telecom_tests/",
     "language": "en",
-    "allureFolder": "allure-report",
+    "allureFolder": "build/allure-report",
     "enableChart": true
   },
   "telegram": {
