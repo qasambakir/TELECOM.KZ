@@ -1,5 +1,7 @@
 # TELECOM.KZ
-## Проект разработан автотестером в роли Самата 
+> АО «Казахтелеком» является крупнейшим оператором фиксированной телефонии в Казахстане, признанным лидером в предоставлении услуг связи, в том числе услуг связи сельской местности, а также одним из крупнейших операторов Национальной сети передачи данных.
+
+### Проект разработан автотестером компании Telecom.kz - Бакир Самат  
 
 ### Содержание
 
@@ -11,9 +13,6 @@
 
 ---
 ## Проект
-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" alt="IntelliJ IDEA" width="50"/> **IntelliJ IDEA** - основной инструмент для разработки.
-- <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="50"/> **Java** - язык программирования.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/JUnit_5_Banner.png" alt="JUnit 5" width="50"/> **JUnit 5** - для написания и выполнения тестов.
-- <img src="https://avatars.githubusercontent.com/u/16062266?s=200&v=4" alt="Selenide" width="50"/> **Selenide** - библиотека для автоматизации браузерного тестирования.
+
 
 ---
