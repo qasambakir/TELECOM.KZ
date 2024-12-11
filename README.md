@@ -51,9 +51,4 @@
 ---
 
 ### <div align="center">Запись прохождения тестов</div>
-    <div align="center">
-    <video controls width="600">
-        <source src="./default_video.mp4" type="video/mp4">
-        Ваш браузер не поддерживает видео.
-    </video>
-</div>
+    [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://selenoid.autotests.cloud/video/default_video.mp4)
