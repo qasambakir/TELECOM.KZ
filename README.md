@@ -50,9 +50,6 @@
 ---
 
 ### <div align="center">Запись прохождения тестов</div>
-    <div align="center">
-    <video controls width="600">
-        <source src="https://selenoid.autotests.cloud/video/default_video.mp4" type="video/mp4">
-        Ваш браузер не поддерживает видео.
-    </video>
+    <<div align="center">
+    <img src="defult_video.mp4" alt="Telegram Report">
 </div>
