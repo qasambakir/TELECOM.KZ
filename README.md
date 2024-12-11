@@ -30,21 +30,21 @@
 
 ### <div align="center">Задача в [Jenkins](https://jenkins.autotests.cloud/job/First_project_telecom_tests/)</div>
 <div align="center">
-    <img src="image.png" alt="Jenkins Job">
+    <img src="images/image.png" alt="Jenkins Job">
 </div>
 
 ---
 
 ### <div align="center">Отчет о прохождении тестов в [Allure Report](https://jenkins.autotests.cloud/job/First_project_telecom_tests/allure/)</div>
 <div align="center">
-    <img src="image-1.png" alt="Allure Report">
+    <img src="images/image-1.png" alt="Allure Report">
 </div>
 
 ---
 
 ### <div align="center">Telegram Report</div>
 <div align="center">
-    <img src="image-2.png" alt="Telegram Report">
+    <img src="images/image-2.png" alt="Telegram Report">
 </div>
 
 ---
