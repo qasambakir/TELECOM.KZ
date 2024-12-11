@@ -51,4 +51,5 @@
 ---
 
 ### <div align="center">Запись прохождения тестов</div>
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://selenoid.autotests.cloud/video/default_video.mp4)
+<div align="center"> [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://selenoid.autotests.cloud/video/default_video.mp4)
+</div>
