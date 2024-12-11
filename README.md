@@ -25,8 +25,10 @@
 
 #### Инструменты:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40"/>
-<img src="https://ru.selenide.org/images/selenide-logo-big.png" alt="Selenide" height="40" width="50"/><img src="https://junit.org/junit5/assets/img/junit5-logo.png" alt="JUnit" height="40" width="40"/><img src="https://static-00.iconduck.com/assets.00/intellij-idea-icon-2048x2048-hsyna1mi.png" alt="IntelliJ IDEA" height="40" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="50">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" height="40" width="40">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" height="40" width="40">
 
 ---
 
