@@ -50,4 +50,4 @@
 ---
 
 ### <div align="center">Запись прохождения тестов</div>
-     https://selenoid.autotests.cloud/video/default_video.mp4
+     [Запись прохождения тестов](https://selenoid.autotests.cloud/video/default_video.mp4)
