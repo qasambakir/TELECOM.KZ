@@ -50,6 +50,4 @@
 ---
 
 ### <div align="center">Запись прохождения тестов</div>
-<div align="center">
     <video controls src="https://selenoid.autotests.cloud/video/default_video.mp4" title="Title"></video>
-</div>
