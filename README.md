@@ -24,7 +24,9 @@
 
 
 #### Инструменты:
-<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" height="40" width="40"/><img src="https://ru.selenide.org/images/selenide-logo-big.png" alt="Selenide" height="40" width="50"/><img src="https://junit.org/junit5/assets/img/junit5-logo.png" alt="JUnit" height="40" width="40"/><img src="https://static-00.iconduck.com/assets.00/intellij-idea-icon-2048x2048-hsyna1mi.png" alt="IntelliJ IDEA" height="40" width="40"/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40"/>
+<img src="https://ru.selenide.org/images/selenide-logo-big.png" alt="Selenide" height="40" width="50"/><img src="https://junit.org/junit5/assets/img/junit5-logo.png" alt="JUnit" height="40" width="40"/><img src="https://static-00.iconduck.com/assets.00/intellij-idea-icon-2048x2048-hsyna1mi.png" alt="IntelliJ IDEA" height="40" width="40"/>
 
 ---
 
