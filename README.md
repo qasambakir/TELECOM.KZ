@@ -1,4 +1,6 @@
-# <div align="center">[TELECOM.KZ](https://telecom.kz/ru/)</div>
+# <div align="center">[TELECOM.KZ <img src="https://play-lh.googleusercontent.com/FMoQp38r6CDxqD-Iu90cu0HZ-OAMLTztkl1iSWHE-su82MmgFzGZHYGbLJwHBNKiO1g=w240-h480-rw" height="26" width="26">](https://telecom.kz/ru/)</div>
+
+
 > АО «Казахтелеком» является крупнейшим оператором фиксированной телефонии в Казахстане, признанным лидером в предоставлении услуг связи, в том числе услуг связи сельской местности, а также одним из крупнейших операторов Национальной сети передачи данных.
 
 ---
