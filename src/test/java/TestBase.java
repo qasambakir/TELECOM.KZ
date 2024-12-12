@@ -29,8 +29,6 @@ public class TestBase {
                 "videoName", System.getProperty("REMOTE_VIDEO_URL", "default_video.mp4")
         ));
         Configuration.browserCapabilities = capabilities;
-
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
     @BeforeEach
