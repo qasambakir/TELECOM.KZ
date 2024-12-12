@@ -27,27 +27,47 @@
 
 #### Инструменты:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="50"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" height="40" width="40"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" height="40" width="40">
-
+<a href="https://www.oracle.com/java/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40">
+</a>
+<a href="https://selenide.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="40" width="50">
+</a>
+<a href="https://junit.org/junit5/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" height="40" width="40">
+</a>
+<a href="https://gradle.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" height="40" width="40">
+</a>
+<a href="https://www.jetbrains.com/ru-ru/idea/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" height="40" width="40">
+</a>
+<a href="https://web.telegram.org/"><img src="https://static.cdnlogo.com/logos/t/57/telegram-2019.svg" height="40" width="40">
+</a>
+<a href="https://www.jenkins.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height="40" width="40">
+</a>
+<a href="https://github.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="40" width="40">
+---
+### <div align="center">Описание тестов</div>
+1. Проверка формы Вопросы и Ответы
+2. Проверка ввода телефона в поле номер
+3. Проверка формы Поиска
+4. Открытие информации по увеличению скорости интернета
+5. Получение информации по подключению Тарифа Keremet TV
 ---
 
 ### <div align="center">Задача в [Jenkins](https://jenkins.autotests.cloud/job/First_project_telecom_tests/)</div>
 <div align="center">
-    <img src="images/image.png" alt="Jenkins Job">
+    <img src="images/джоб дженкинс.png" alt="Jenkins Job">
 </div>
 
 ---
 
 ### <div align="center">Отчет о прохождении тестов в [Allure Report](https://jenkins.autotests.cloud/job/First_project_telecom_tests/allure/)</div>
 <div align="center">
-    <img src="images/image-1.png" alt="Allure Report">
+    <img src="images/aluure_report.png" alt="Allure Report">
 </div>
 
 ---
 
 ### <div align="center">Telegram Report</div>
 <div align="center">
-    <img src="images/image-2.png" alt="Telegram Report">
+    <img src="images/telegram_alert.png" alt="Telegram Report">
 </div>
 
 ---
