@@ -81,7 +81,7 @@ public class FirstTelecomWebTests extends TestBase {
 
     @DisplayName("Проверка формы Вопросы и Ответы")
     @Test
-    void fillCheckFormTestQuestionsAndAnswers() {
+    void fillCheckFormTestQuestionsAndAnswersTest() {
         step("Open main page", () -> {
             open("/");
             $("header").should(appear);
@@ -102,7 +102,7 @@ public class FirstTelecomWebTests extends TestBase {
 
     @DisplayName("Проверка формы Поиска")
     @Test
-    void fillCheckFormSearch() {
+    void fillCheckFormSearchTest() {
         step("Open main page", () -> {
             open("/");
             $("header").should(appear);
